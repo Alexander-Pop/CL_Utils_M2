@@ -1,0 +1,27 @@
+{
+    "name": "codelegacy/magento2-utils",
+    "description": "Magento 2 Module with some tools to make dev life and debugging easier",
+    "authors": [
+        {
+            "name": "Alex P",
+            "email": "alexander@codelegacy.com"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Codelegacy\\Utils\\": ""
+        }
+    }
+}
